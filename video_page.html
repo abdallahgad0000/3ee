@@ -1,0 +1,1218 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BootStrap HTML5 CSS3 Theme</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/transitions.css">
+    <link rel="stylesheet" href="./css/book_page.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsive-header.css" type="text/css" />
+    <link rel="stylesheet" href="css/video_page.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css">
+
+    <style>
+        @media screen and (max-width:320px) {
+            .card-links .wishlist{
+                visibility: hidden;
+            }
+        }
+    </style>
+  </head>
+
+<body class="stretched">
+
+  <!-- -------------  pre loader ------------------- -->
+    <div id="preLoader">
+        <!-- <div class="tg-preloader-logo">
+            <img src="./images/edit-Logo.png" alt="3ee">
+        </div> -->
+        <div id="loader">
+            <div id="d1"></div>
+            <div id="d2"></div>
+            <div id="d3"></div>
+            <div id="d4"></div>
+            <div id="d5"></div>
+        </div>
+    </div>
+    <!-- ---------------- end pre loader ------------- -->
+    
+    
+    <div class="bg" style="display: none"></div>
+
+    <div class="popup">
+        <iframe
+          id="player"
+          class="youtube-iframe"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/btUPp-VJGos"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+
+    <header>
+
+        <div id="bgHeader"  class="container position-relative">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-upper">
+                        <div class="logo-abd-search">
+                            <div class="logo">
+                                <a href="#" class="logo-in-bg-screen">
+                                    <img src="./images/Logo.png" alt="3ee">
+                                </a>
+                               
+                            </div>
+                            <div class="search-section">
+                                <div class="search-section-shadow">
+                                    <input name="query" aria-label="search" autocomplete="off" class="search-field" id="sl" placeholder="What Are You Looking For?" type="search" value="">
+                
+                                    <input class="btn search-submit-button" type="button" value="submit">
+                                </div>
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="rich-header-user">
+
+                            <div class="lang-container">
+                                <div class="lang">
+                                    <a href="#" style="font-family: cairo;">العربية</a>
+                                </div>
+                            </div>
+                            <div class="signup-or-in">
+                                <div class="create-account">
+                                    <a aria-label="Create account" class="btn buttonish-create-account" href="#">
+                                        <!-- <span class="sidebar">Create account</span> -->
+                                        <span class="fullbar">Create account</span>
+                                    </a>
+                                </div>
+                                <div class="sign-in-button">
+                                    <a aria-label="Have an account? Sign in" class="buttonish-sign-in">
+                        
+                                        <span class="have-account">Have an account?</span>
+                                        <div class="sign-in-container">
+                                            <span class="sign-in">Sign in</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12">
+                    <nav class="bg-screen-nav">
+                        <div class="header-lower">
+                            <ul>
+                                <li class="nav-ebooks" id="navEbooks">
+                                    BOOKS 
+                                    <i class="fas fa-chevron-down"></i>
+                                    <div id="navEbooksDiv"></div> 
+                                </li>
+                                <li class="nav-audioBooks" id="navAudioBooks">
+                                    Audios
+                                    <i class="fas fa-chevron-down"></i>
+                                    <div id="navAudioBooksDiv"></div> 
+                                </li>
+                                <li class="nav-audioBooks" id="navVideos">
+                                    Videos
+                                    <i class="fas fa-chevron-down"></i>
+                                    <div id="navVideosDiv"></div> 
+                                </li>
+                                <li class="nav-audioBooks" id="navAuthors">
+                                    Authors
+                                    <i class="fas fa-chevron-down"></i>
+                                    <div id="navAuthorsDiv"></div> 
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="nav-panel position-absolute" id="navPanel">
+                            <div class="panel-container">
+                                <div class="panel-categories">
+                                    <div class="panel-category-upper">
+                                        <a href="#">category-1</a>
+                                        <a href="#">category-dddd1</a>
+                                        <a href="#">category-1
+                                        </a><a href="#">categoryvdv-1</a>
+                                        <a href="#">category-1</a>
+                                        <a href="#">category-1</a>
+                                        <a href="#">category-1nnnn</a>
+                                        <a href="#">category-1</a>
+                                        <a href="#">category-1</a>
+                                        <a href="#">category-1</a>
+                                    </div>
+                                   
+                                </div>
+                                <div class="panel-recommended">
+                                    <div class="panel-recommended-upper">
+                                        <a href="#">recommended-1</a>
+                                        <a href="#">recommended-dddd1</a>
+                                        <a href="#">recommended-1</a>
+                                        <a href="#">recommendedvdv-1</a>
+                                        
+                                    </div>
+                                    <div class="panel-recommended-lower">
+                                        <a href="#"> Browse All Categories</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nav-panel position-absolute" id="navAudioBooksPanel">
+                            <div class="panel-container">
+                                <div class="panel-categories">
+                                    <div class="panel-category-upper">
+                                        <a href="#">audiocategory-1</a>
+                                        <a href="#">audiocategory-dddd1</a>
+                                        <a href="#">audiocategory-1
+                                        </a><a href="#">audiocategoryvdv-1</a>
+                                        <a href="#">audiocategory-1</a>
+                                        <a href="#">audiocategory-1</a>
+                                        <a href="#">audiocategory-1nnnn</a>
+                                        <a href="#">audiocategory-1</a>
+                                        <a href="#">audiocategory-1</a>
+                                        <a href="#">audiocategory-1</a>
+                                    </div>
+                                                                   
+                                </div>
+                                <div class="panel-recommended">
+                                    <div class="panel-recommended-upper">
+                                        <a href="#">recommended-1</a>
+                                        <a href="#">recommended-dddd1</a>
+                                        <a href="#">recommended-1
+                                        </a><a href="#">recommendedvdv-1</a>
+                                        
+                                    </div>
+                                    <div class="panel-recommended-lower">
+                                        <a href="#"> Browse All Categories</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nav-panel position-absolute" id="navVideosPanel">
+                            <div class="panel-container">
+                                <div class="panel-categories">
+                                    <div class="panel-category-upper">
+                                        <a href="#">video category-1</a>
+                                        <a href="#">video category-dddd1</a>
+                                        <a href="#">video category-1</a>
+                                        <a href="#">video categoryvdv-1</a>
+                                        <a href="#">video category-1</a>
+                                        <a href="#">video category-1</a>
+                                        <a href="#">video category-1nnnn</a>
+                                        <a href="#">video category-1</a>
+                                        <a href="#">video category-1</a>
+                                        <a href="#">video category-1</a>
+                                    </div>
+                                                                   
+                                </div>
+                                <div class="panel-recommended">
+                                    <div class="panel-recommended-upper">
+                                        <a href="#">recommended-1</a>
+                                        <a href="#">recommended-dddd1</a>
+                                        <a href="#">recommended-1
+                                        </a><a href="#">recommendedvdv-1</a>
+                                        
+                                    </div>
+                                    <div class="panel-recommended-lower">
+                                        <a href="#"> Browse All Categories</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="nav-panel position-absolute" id="navAuthorsPanel">
+                            <div class="panel-container">
+                                <div class="panel-categories">
+                                    <div class="panel-category-upper">
+                                        <a href="#">Authors category-1</a>
+                                        <a href="#">Authors category-dddd1</a>
+                                        <a href="#">Authors category-1
+                                        </a><a href="#">Authors categoryvdv-1</a>
+                                        <a href="#">Authors category-1</a>
+                                        <a href="#">Authors category-1</a>
+                                        <a href="#">Authors category-1nnnn</a>
+                                        <a href="#">Authors category-1</a>
+                                        <a href="#">Authors category-1</a>
+                                        <a href="#">Authors category-1</a>
+                                    </div>
+                                                                    
+                                </div>
+                                <div class="panel-recommended">
+                                    <div class="panel-recommended-upper">
+                                        <a href="#">recommended-1</a>
+                                        <a href="#">recommended-dddd1</a>
+                                        <a href="#">recommended-1
+                                        </a><a href="#">recommendedvdv-1</a>
+                                        
+                                    </div>
+                                    <div class="panel-recommended-lower">
+                                        <a href="#"> Browse All Categories</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+       
+        <!-- ---------------- responsive header  ------------------ -->
+
+        <div id="wrapper" class="clearfix">
+
+            <!-- Top Bar
+            ============================================= -->
+            <!-- <div id="top-bar" class="dark bg-color py-3">
+                <div class="container">
+                    <div class="d-flex align-items-center justify-content-center flex-column flex-md-row fw-medium center text-white">
+                        <span><strong class="text-uppercase mx-1"><u>Flash Sale!</u></strong> Flat 40% off. Get it now at just<del class="mx-1 text-white-50">$16</del><strong>$9</strong>.</span> <a href="https://1.envato.market/c/1309643/480739/4415?u=https%3A%2F%2Fthemeforest.net%2Fcheckout%2Ffrom_item%2F9228123%3Flicense%3Dregular" class="btn btn-sm bg-white color ms-md-3 mt-2 mt-md-0 fw-semibold" target="_blank">Buy Now</a>
+                    </div>
+    
+                </div>
+            </div> -->
+    
+            <!-- Header
+            ============================================= -->
+            <div id="header" class="full-header">
+                <div id="header-wrap">
+                    <div class="container">
+                        <div class="header-row">
+    
+                            <!-- Logo
+                            ============================================= -->
+                            <div id="logo">
+                                <a href="#" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo.png" alt="3ee Logo"></a>
+                            </div>
+                            <!-- #logo end -->
+    
+                            <div class="header-misc">
+    
+                                <!-- Top Search
+                                ============================================= -->
+                                <div id="top-search" class="header-misc-icon">
+                                    <a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+                                </div>
+                                <!-- #top-search end -->
+    
+                               
+    
+                            </div>
+    
+                            <div id="primary-menu-trigger">
+                                <svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+                            </div>
+    
+                            
+    
+                            <form class="top-search-form" action="search.html" method="get">
+                                <input type="text" name="q" class="form-control" value="" placeholder="What Are You Looking For?" autocomplete="off">
+                            </form>
+    
+                        </div>
+                    </div>
+                </div>
+                <!-- Primary Navigation
+                            ============================================= -->
+                            <nav class="primary-menu">
+    
+                                <ul class="menu-container">
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#">
+                                            <div>books</div>
+                                        </a>
+                                        <ul class="sub-menu-container">
+                                            <li class="menu-item">
+                                                <a class="menu-link" href="#">
+                                                    <div>Book category</div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="menu-link" href="#">
+                                                    <div>Book category</div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="menu-link" href="#">
+                                                    <div>Book category</div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="menu-link" href="#">
+                                                    <div>Book category</div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="menu-link" href="#">
+                                                    <div>Book category</div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="menu-link" href="#">
+                                                    <div>Book category</div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#">
+                                            <div>Audios</div>
+                                        </a>
+                                        <ul class="sub-menu-container">
+                                            <li class="menu-item">
+                                                <a class="menu-link" href="#">
+                                                    <div>audios category</div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="menu-link" href="#">
+                                                    <div>audios category</div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="menu-link" href="#">
+                                                    <div>audios category</div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="menu-link" href="#">
+                                                    <div>audios category</div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="menu-link" href="#">
+                                                    <div>audios category</div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="menu-link" href="#">
+                                                    <div>audios category</div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="menu-link" href="#">
+                                                    <div>audios category</div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item mega-menu">
+                                        <a class="menu-link" href="#">
+                                            <div>Videos</div>
+                                        </a>
+                                        <div class="mega-menu-content mega-menu-style-2">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <ul class="sub-menu-container mega-menu-column col-lg-3">
+                                                        <li class="menu-item mega-menu-title">
+                                                            <a class="menu-link" href="#">
+                                                                <div>video category</div>
+                                                            </a>
+                                                        </li>
+                                                        <li class="menu-item mega-menu-title">
+                                                            <a class="menu-link" href="#">
+                                                                <div>video category</div>
+                                                            </a>
+                                                        </li>
+                                                        <li class="menu-item mega-menu-title">
+                                                            <a class="menu-link" href="#">
+                                                                <div>video category</div>
+                                                            </a>
+                                                        </li>
+                                                        <li class="menu-item mega-menu-title">
+                                                            <a class="menu-link" href="#">
+                                                                <div>video category</div>
+                                                            </a>
+                                                        </li>
+                                                        <li class="menu-item mega-menu-title">
+                                                            <a class="menu-link" href="#">
+                                                                <div>video category</div>
+                                                            </a>
+                                                        </li>
+                                                        <li class="menu-item mega-menu-title">
+                                                            <a class="menu-link" href="#">
+                                                                <div>video category</div>
+                                                            </a>
+                                                        </li>
+                                                        <li class="menu-item mega-menu-title">
+                                                            <a class="menu-link" href="#">
+                                                                <div>video category</div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item mega-menu">
+                                        <a class="menu-link" href="#">
+                                            <div>Authors</div>
+                                        </a> 
+                                    </li>
+    
+    
+                                    
+                                </ul>
+    
+                            </nav>
+                            <!-- #primary-menu end -->
+                <div class="header-wrap-clone"></div>
+            </div>
+            <!-- #header end -->
+    
+    
+    
+        </div>
+
+
+    </header>
+
+
+ 
+
+
+    <!--  ------------------------- main ----------------------- -->
+
+    <div id="tg-wrapper" class="tg-wrapper tg-haslayout">
+    
+
+         <!-- Start: Book & Media Section -->
+    <div id="content" class="site-content">
+        <div id="primary" class="content-area">
+            <main id="main" class="site-main">
+                <div class="books-media-list">
+                    <div class="container">
+                        <div class="row">
+                            
+                            <div class="col-md-12 col-lg-12">
+                                <div class="books-media-detail-v1">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="single-book-media">
+                                                <div class="book-thumb" id="showPopup">
+                                                    <!-- <span class="instock">Available</span> -->
+                                                    <img src="./images/audios/audios images/artworks-000027807846-ngvrt4-t500x500.jpg" alt="">
+                                                    <div class="video-in-player">
+                                                        <div class="video-in-player-container">
+                                                            <img src="./images/circle-shape.png" class="" alt="">
+                                                            <div class="play-icon">
+                                                                <i class="fas fa-play"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="book-detail">
+                                                    <div class="rating-box">
+                                                        <div class="rating">
+                                                            <input type="radio" id="star5" name="rating" value="5" /><label class="full" for="star5" title="Awesome - 5 stars"></label>
+                                                            <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                                            <input type="radio" id="star4" name="rating" value="4" /><label class="full" for="star4" title="Pretty good - 4 stars"></label>
+                                                            <input type="radio" id="star3half" name="rating" value="3 and a half" checked /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                                            <input type="radio" id="star3" name="rating" value="3" /><label class="full" for="star3" title="Meh - 3 stars"></label>
+                                                            <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                                            <input type="radio" id="star2" name="rating" value="2" /><label class="full" for="star2" title="Kinda bad - 2 stars"></label>
+                                                            <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                                            <input type="radio" id="star1" name="rating" value="1" /><label class="full" for="star1" title="Sucks big time - 1 star"></label>
+                                                            <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                                                        </div>
+                                                        <a class="category-tags bg-yellow">Category name</a>
+                                                    </div>
+                                                    <h3 class="book-media-title"><a href="#">Video name
+                                                        </a></h3>
+                                                    <div class="item-social-review">
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-comment"></i> 37 Reviews</a>
+                                                            </li>
+                                                            <li><a href="#"><i class="fa fa-heart"></i> 110K Likes</a>
+                                                            </li>
+                                                            <!-- <li><a href="#"><i class="fa fa-download"></i> 58K
+                                                                    Downloads</a>
+                                                            </li> -->
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item-info">
+                                                        <ul>
+                                                            <li>
+                                                                Created By<strong>Author name</strong>
+                                                            </li>
+                                                            <!-- <li>
+                                                                ISBN<strong>9781581573268</strong>
+                                                            </li> -->
+                                                            <li>
+                                                                Posted By<strong>Post User</strong>
+                                                            </li>
+                                                            <li>
+                                                                Post Date<strong>Feb 23, 1940</strong>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                      
+
+
+                                                    <div class="card-links">                                                        
+                                                        <a class="wishlist active" style="position: absolute; top: 30px; right: 30px;" id="wishListBtn"><i class="fa fa-heart"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-overview">
+                                                <div class="tabs">
+                                                    
+                                                    
+                                                    <input type="radio" name="tab" id="tab4" checked="checked">
+                                                    <label for="tab4">Reviews</label>
+
+                                                    <div class="tab-content-wrapper">
+                                                        
+                                                        
+                                                        
+                                                        <div id="tab-content-4" class="tab-content">
+                                                            <span class="sub-title">User Rating</span>
+                                                            <h2 class="section-title">Readers Reviews
+                                                            </h2>
+                                                            <p class="lead-text">Sed nec fermentum leo. Vestibulum pulvinar, risus quis mollis posuere, lorem lectus pretium turpis, non elementum eros metus ut purus. Morbi hendrerit molestie augue luctus euismod. </p>
+                                                            <span class="sub-title">Your rating</span>
+                                                            <h2 class="section-title">Write Your Comment
+                                                            </h2>
+                                                            <div class="product-rating">
+                                                                <div class="rating-box">
+                                                                    <p>Your Rating <sup>*</sup></p>
+                                                                    <div class="star-rating-v2">
+                                                                        <span class="fa fa-star-o" data-rating="1"></span>
+                                                                        <span class="fa fa-star-o" data-rating="2"></span>
+                                                                        <span class="fa fa-star-o" data-rating="3"></span>
+                                                                        <span class="fa fa-star-o" data-rating="4"></span>
+                                                                        <span class="fa fa-star-o" data-rating="5"></span>
+                                                                        <input type="hidden" name="whatever1" class="rating-value" value="0">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <form>
+                                                                <div class="row">
+                                                                    <div class="col-md-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="form-control" placeholder="Your Name">
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <input type="email" class="form-control" placeholder="Enter email">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <div class="form-group">
+                                                                            <textarea class="form-control" rows="5" placeholder="Your Review"></textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <button type="submit" class="btn btn-secondary tg-btn tg-btnstyletwo tg-active">Post Your
+                                                                            Comment</button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <!-- End: Books & Media Section -->
+
+    <!--
+    Audios Start
+    *************************************-->
+    <section class="tg-sectionspace tg-haslayout">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="tg-sectionhead">
+                        <h2><span>Some Great Videos</span>Related Videos</h2>
+                        <a class="tg-btn" href="#">View All</a>
+                    </div>
+                </div>
+                <div id="tg-pickedbyauthorslider" class="tg-pickedbyauthor tg-pickedbyauthorslider owl-carousel">
+                    <div class="item">
+                        <div class="tg-postbook">
+                            <figure class="tg-featureimg">
+                                <div class="tg-bookimg">
+                                    <div class="tg-frontcover"><img src="images/audios/audios images/artworks-000027807846-ngvrt4-t500x500.jpg" alt="image description"></div>
+                                    <div class="listen-icon">
+                                        <i class="fas fa-play" style="font-size: 2rem;border: 2px solid #fff ; border-radius: 50%;padding:13px 13px 13px 15px;"></i>
+                                    </div>
+                                </div>
+                                <div class="tg-hovercontent">
+                                    <div class="tg-description">
+                                        <strong><span class="tg-bookwriter">By: <a href="#">Creator Name</a></span></strong>
+                                    </div>
+                                    <strong class="tg-bookcategory">Category: Category Name</strong>
+                                    <div class="tg-ratingbox"><div class="item-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div class="tg-likes">
+                                        <span style="font-size: 1rem"><i class="fa fa-heart" style="color: rgb(248, 70, 85);"></i> 110K Likes</span>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="tg-postbookcontent">
+                                <div class="tg-booktitle">
+                                    <h3><a href="#">Explanation Of Gloss</a></h3>
+                                </div>
+                                <a class="tg-btn tg-btnstyletwo" href="#">
+                                    <em>Watch Now</em>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tg-postbook">
+                            <figure class="tg-featureimg">
+                                <div class="tg-bookimg">
+                                    <div class="tg-frontcover"><img src="images/audios/audios images/artworks-000027807846-ngvrt4-t500x500.jpg" alt="image description"></div>
+                                    <div class="listen-icon">
+                                        <i class="fas fa-play" style="font-size: 2rem;border: 2px solid #fff ; border-radius: 50%;padding:13px 13px 13px 15px;"></i>
+                                    </div>
+                                </div>
+                                <div class="tg-hovercontent">
+                                    <div class="tg-description">
+                                        <strong><span class="tg-bookwriter">By: <a href="#">Creator Name</a></span></strong>
+                                    </div>
+                                    <strong class="tg-bookcategory">Category: Category Name</strong>
+                                    <div class="tg-ratingbox"><div class="item-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div class="tg-likes">
+                                        <span style="font-size: 1rem"><i class="fa fa-heart" style="color: rgb(248, 70, 85);"></i> 110K Likes</span>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="tg-postbookcontent">
+                                <div class="tg-booktitle">
+                                    <h3><a href="#">Explanation Of Gloss</a></h3>
+                                </div>
+                                <a class="tg-btn tg-btnstyletwo" href="#">
+                                    <em>Watch Now</em>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tg-postbook">
+                            <figure class="tg-featureimg">
+                                <div class="tg-bookimg">
+                                    <div class="tg-frontcover"><img src="images/audios/audios images/artworks-000027807846-ngvrt4-t500x500.jpg" alt="image description"></div>
+                                    <div class="listen-icon">
+                                        <i class="fas fa-play" style="font-size: 2rem;border: 2px solid #fff ; border-radius: 50%;padding:13px 13px 13px 15px;"></i>
+                                    </div>
+                                </div>
+                                <div class="tg-hovercontent">
+                                    <div class="tg-description">
+                                        <strong><span class="tg-bookwriter">By: <a href="#">Creator Name</a></span></strong>
+                                    </div>
+                                    <strong class="tg-bookcategory">Category: Category Name</strong>
+                                    <div class="tg-ratingbox"><div class="item-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div class="tg-likes">
+                                        <span style="font-size: 1rem"><i class="fa fa-heart" style="color: rgb(248, 70, 85);"></i> 110K Likes</span>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="tg-postbookcontent">
+                                <div class="tg-booktitle">
+                                    <h3><a href="#">Explanation Of Gloss</a></h3>
+                                </div>
+                                <a class="tg-btn tg-btnstyletwo" href="#">
+                                    <em>Watch Now</em>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tg-postbook">
+                            <figure class="tg-featureimg">
+                                <div class="tg-bookimg">
+                                    <div class="tg-frontcover"><img src="images/audios/audios images/artworks-000027807846-ngvrt4-t500x500.jpg" alt="image description"></div>
+                                    <div class="listen-icon">
+                                        <i class="fas fa-play" style="font-size: 2rem;border: 2px solid #fff ; border-radius: 50%;padding:13px 13px 13px 15px;"></i>
+                                    </div>
+                                </div>
+                                <div class="tg-hovercontent">
+                                    <div class="tg-description">
+                                        <strong><span class="tg-bookwriter">By: <a href="#">Creator Name</a></span></strong>
+                                    </div>
+                                    <strong class="tg-bookcategory">Category: Category Name</strong>
+                                    <div class="tg-ratingbox"><div class="item-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div class="tg-likes">
+                                        <span style="font-size: 1rem"><i class="fa fa-heart" style="color: rgb(248, 70, 85);"></i> 110K Likes</span>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="tg-postbookcontent">
+                                <div class="tg-booktitle">
+                                    <h3><a href="#">Explanation Of Gloss</a></h3>
+                                </div>
+                                <a class="tg-btn tg-btnstyletwo" href="#">
+                                    <em>Watch Now</em>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tg-postbook">
+                            <figure class="tg-featureimg">
+                                <div class="tg-bookimg">
+                                    <div class="tg-frontcover"><img src="images/audios/audios images/artworks-000027807846-ngvrt4-t500x500.jpg" alt="image description"></div>
+                                    <div class="listen-icon">
+                                        <i class="fas fa-play" style="font-size: 2rem;border: 2px solid #fff ; border-radius: 50%;padding:13px 13px 13px 15px;"></i>
+                                    </div>
+                                </div>
+                                <div class="tg-hovercontent">
+                                    <div class="tg-description">
+                                        <strong><span class="tg-bookwriter">By: <a href="#">Creator Name</a></span></strong>
+                                    </div>
+                                    <strong class="tg-bookcategory">Category: Category Name</strong>
+                                    <div class="tg-ratingbox"><div class="item-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div class="tg-likes">
+                                        <span style="font-size: 1rem"><i class="fa fa-heart" style="color: rgb(248, 70, 85);"></i> 110K Likes</span>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="tg-postbookcontent">
+                                <div class="tg-booktitle">
+                                    <h3><a href="#">Explanation Of Gloss</a></h3>
+                                </div>
+                                <a class="tg-btn tg-btnstyletwo" href="#">
+                                    <em>Watch Now</em>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--************************************
+            Audios End
+    *************************************-->
+
+
+<!--************************************
+            
+        videos Start
+    *************************************-->
+    <section class="tg-sectionspace tg-haslayout">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="tg-sectionhead">
+                        <h2><span>Some Great Videos</span>Other Videos From The Creator</h2>
+                        <a class="tg-btn" href="#">View All</a>
+                    </div>
+                </div>
+                <div id="tg-pickedVideos" class="tg-pickedbyauthor tg-pickedbyauthorslider owl-carousel">
+                    <div class="item">
+                        <div class="tg-postbook">
+                            <figure class="tg-featureimg">
+                                <div class="tg-bookimg">
+                                    <div class="tg-frontcover"><img src="images/audios/audios images/artworks-000027807846-ngvrt4-t500x500.jpg" alt="image description"></div>
+                                    <div class="listen-icon">
+                                        <i class="fas fa-play" style="font-size: 2rem;border: 2px solid #fff ; border-radius: 50%;padding:13px 13px 13px 15px;"></i>
+                                    </div>
+                                </div>
+                                <div class="tg-hovercontent">
+                                    <div class="tg-description">
+                                        <strong><span class="tg-bookwriter">By: <a href="#">Creator Name</a></span></strong>
+                                    </div>
+                                    <strong class="tg-bookcategory">Category: Category Name</strong>
+                                    <div class="tg-ratingbox"><div class="item-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div class="tg-likes">
+                                        <span style="font-size: 1rem"><i class="fa fa-heart" style="color: rgb(248, 70, 85);"></i> 110K Likes</span>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="tg-postbookcontent">
+                                <div class="tg-booktitle">
+                                    <h3><a href="#">Explanation Of Gloss</a></h3>
+                                </div>
+                                <a class="tg-btn tg-btnstyletwo" href="#">
+                                    <em>Watch Now</em>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tg-postbook">
+                            <figure class="tg-featureimg">
+                                <div class="tg-bookimg">
+                                    <div class="tg-frontcover"><img src="images/audios/audios images/artworks-000027807846-ngvrt4-t500x500.jpg" alt="image description"></div>
+                                    <div class="listen-icon">
+                                        <i class="fas fa-play" style="font-size: 2rem;border: 2px solid #fff ; border-radius: 50%;padding:13px 13px 13px 15px;"></i>
+                                    </div>
+                                </div>
+                                <div class="tg-hovercontent">
+                                    <div class="tg-description">
+                                        <strong><span class="tg-bookwriter">By: <a href="#">Creator Name</a></span></strong>
+                                    </div>
+                                    <strong class="tg-bookcategory">Category: Category Name</strong>
+                                    <div class="tg-ratingbox"><div class="item-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div class="tg-likes">
+                                        <span style="font-size: 1rem"><i class="fa fa-heart" style="color: rgb(248, 70, 85);"></i> 110K Likes</span>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="tg-postbookcontent">
+                                <div class="tg-booktitle">
+                                    <h3><a href="#">Explanation Of Gloss</a></h3>
+                                </div>
+                                <a class="tg-btn tg-btnstyletwo" href="#">
+                                    <em>Watch Now</em>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tg-postbook">
+                            <figure class="tg-featureimg">
+                                <div class="tg-bookimg">
+                                    <div class="tg-frontcover"><img src="images/audios/audios images/artworks-000027807846-ngvrt4-t500x500.jpg" alt="image description"></div>
+                                    <div class="listen-icon">
+                                        <i class="fas fa-play" style="font-size: 2rem;border: 2px solid #fff ; border-radius: 50%;padding:13px 13px 13px 15px;"></i>
+                                    </div>
+                                </div>
+                                <div class="tg-hovercontent">
+                                    <div class="tg-description">
+                                        <strong><span class="tg-bookwriter">By: <a href="#">Creator Name</a></span></strong>
+                                    </div>
+                                    <strong class="tg-bookcategory">Category: Category Name</strong>
+                                    <div class="tg-ratingbox"><div class="item-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div class="tg-likes">
+                                        <span style="font-size: 1rem"><i class="fa fa-heart" style="color: rgb(248, 70, 85);"></i> 110K Likes</span>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="tg-postbookcontent">
+                                <div class="tg-booktitle">
+                                    <h3><a href="#">Explanation Of Gloss</a></h3>
+                                </div>
+                                <a class="tg-btn tg-btnstyletwo" href="#">
+                                    <em>Watch Now</em>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tg-postbook">
+                            <figure class="tg-featureimg">
+                                <div class="tg-bookimg">
+                                    <div class="tg-frontcover"><img src="images/audios/audios images/artworks-000027807846-ngvrt4-t500x500.jpg" alt="image description"></div>
+                                    <div class="listen-icon">
+                                        <i class="fas fa-play" style="font-size: 2rem;border: 2px solid #fff ; border-radius: 50%;padding:13px 13px 13px 15px;"></i>
+                                    </div>
+                                </div>
+                                <div class="tg-hovercontent">
+                                    <div class="tg-description">
+                                        <strong><span class="tg-bookwriter">By: <a href="#">Creator Name</a></span></strong>
+                                    </div>
+                                    <strong class="tg-bookcategory">Category: Category Name</strong>
+                                    <div class="tg-ratingbox"><div class="item-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div class="tg-likes">
+                                        <span style="font-size: 1rem"><i class="fa fa-heart" style="color: rgb(248, 70, 85);"></i> 110K Likes</span>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="tg-postbookcontent">
+                                <div class="tg-booktitle">
+                                    <h3><a href="#">Explanation Of Gloss</a></h3>
+                                </div>
+                                <a class="tg-btn tg-btnstyletwo" href="#">
+                                    <em>Watch Now</em>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tg-postbook">
+                            <figure class="tg-featureimg">
+                                <div class="tg-bookimg">
+                                    <div class="tg-frontcover"><img src="images/audios/audios images/artworks-000027807846-ngvrt4-t500x500.jpg" alt="image description"></div>
+                                    <div class="listen-icon">
+                                        <i class="fas fa-play" style="font-size: 2rem;border: 2px solid #fff ; border-radius: 50%;padding:13px 13px 13px 15px;"></i>
+                                    </div>
+                                </div>
+                                <div class="tg-hovercontent">
+                                    <div class="tg-description">
+                                        <strong><span class="tg-bookwriter">By: <a href="#">Creator Name</a></span></strong>
+                                    </div>
+                                    <strong class="tg-bookcategory">Category: Category Name</strong>
+                                    <div class="tg-ratingbox"><div class="item-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div class="tg-likes">
+                                        <span style="font-size: 1rem"><i class="fa fa-heart" style="color: rgb(248, 70, 85);"></i> 110K Likes</span>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="tg-postbookcontent">
+                                <div class="tg-booktitle">
+                                    <h3><a href="#">Explanation Of Gloss</a></h3>
+                                </div>
+                                <a class="tg-btn tg-btnstyletwo" href="#">
+                                    <em>Watch Now</em>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--************************************
+            videos End
+    *************************************-->
+
+
+
+
+
+
+        <!--************************************
+				Footer Start
+		*************************************-->
+        <footer id="tg-footer" class="tg-footer tg-haslayout">
+            <div class="tg-footerarea">
+                <div class="container">
+                    <div class="row">
+                       
+                        <div class="tg-threecolumns">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <div class="tg-footercol">
+                                    <div class="tg-widgettitle">
+                                        <h3>Contact Us</h3>
+                                    </div>
+                                    <ul class="tg-contactinfo">
+                                        <li>
+                                            <i class="fas fa-map-marked-alt"></i>
+                                            <address>Suit # 07, Rose world Building, Street # 02, AT246T Manchester</address>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-phone-alt"></i>
+                                            <span>
+												<em>0800 12345 - 678 - 89</em>
+												<em>+4 1234 - 4567 - 67</em>
+											</span>
+                                        </li>
+                                        <!-- <li>
+                                            <i class="far fa-clock"></i>
+                                            <span>Serving 7 Days A Week From 9am - 5pm</span>
+                                        </li> -->
+                                        <li>
+                                            <i class="fas fa-envelope"></i>
+                                            <span>
+												<em><a href="mailto:support@domain.com">support@domain.com</a></em>
+												<em><a href="mailto:info@domain.com">info@domain.com</a></em>
+											</span>
+                                        </li>
+                                    </ul>
+                                    <!-- <ul class="tg-socialicons">
+                                        <li class="tg-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="tg-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="tg-linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li class="tg-googleplus"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li class="tg-rss"><a href="#"><i class="fa fa-rss"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <div class="tg-footercol tg-widget tg-widgetnavigation">
+                                    <div class="tg-widgettitle">
+                                        <h3>About Us & Help Information</h3>
+                                    </div>
+                                    <div class="tg-widgetcontent tg-test2">
+                                        <div class="tg-test">
+                                            <span><a href="#">Terms of Use</a></span>
+                                            <span><a href="#">Privacy</a></span>
+                                            <span><a href="#">Cookies</a></span>
+                                            <span><a href="#">Our Vision</a></span>
+                                            <span><a href="#">Our Story</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 tg-stayconnected">
+                                <div class="tg-footercol tg-widget tg-widgettopsellingauthors">
+                                    <div class="tg-widgettitle">
+                                        <h3>Stay Connected</h3>
+                                    </div>
+                                    <div class="tg-widgetcontent">
+                                        <ul class="tg-socialicons">
+                                            <li class="tg-facebook">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                <span><a href="#" class="tg-socialicons-links">Facebook</a></span>
+                                            </li>
+                                            <li class="tg-twitter">
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <span><a href="#" class="tg-socialicons-links">Twitter</a></span>
+                                            </li>
+                                            <li class="tg-youtube"><a href="#">
+                                                <i class="fab fa-youtube"></i></a>
+                                                <span><a href="#" class="tg-socialicons-links">Youtube</a></span>
+                                            </li>
+                                            <li class="tg-googleplus"><a href="#">
+                                                <i class="fab fa-google-plus-g"></i></a>
+                                                <span><a href="#" class="tg-socialicons-links">Google Plus</a></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tg-newsletter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h4>Signup Newsletter!</h4>
+                            <h5>Consectetur adipisicing elit sed do eiusmod tempor incididunt.</h5>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <form class="tg-formtheme tg-formnewsletter">
+                                <fieldset>
+                                    <input type="email" name="email" class="form-control" placeholder="Enter Your Email ID">
+                                    <button type="button"><i class="fas fa-envelope"></i></button>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tg-footerbar">
+                <a id="tg-btnbacktotop" class="tg-btnbacktotop" href="#"><i class="fa fa-chevron-up"></i></a>
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 tg-footer-logo-container">
+                            <div class="footer-logo">
+                                <img src="./images/Logo.png" alt="3ee">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 tg-copyright-container">
+                            <div class="tg-copyright">
+                                <span>&copy;<span id="thisYear"></span> All Rights Reserved</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--************************************
+				Footer End
+		*************************************-->
+    </div>
+
+
+    <script src="js/jquery-library.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/carousel.swipe.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/highlight.min.js"></script>
+    <script src="js/book_page.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/audio_player.js"></script>
+    <script src="js/main.js"></script>
+    <script src="./js/video_page.js"></script>
+  </body>
+</html>

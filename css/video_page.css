@@ -1,0 +1,87 @@
+.video-in-player{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%) translateY(-50%);
+}
+.video-in-player-container{
+    position: relative;
+}
+.play-icon{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%) translateY(-50%);
+}
+.play-icon i{
+    font-size: 0.8rem;
+    color: #fff;
+}
+.book-thumb{
+    cursor: pointer;
+}
+
+
+.popup {
+    position: absolute;
+    min-height: auto;
+    width: auto;
+    z-index: 1002;
+    display: none; 
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    height: calc(70vw / 100 * 66); 
+    width: 70vw;
+  }
+  
+  @media screen and (max-width:568px) {
+      .popup{
+          width: 95vw;
+          height: calc(95vw / 100 * 66); 
+      }
+  }
+  
+  
+  
+  .youtube-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%
+  }
+  
+  .bg {
+    background-color: black;
+    opacity: 0.65;
+    position: absolute;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+  }
+/*   
+  #showPopup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px 30px;
+  
+    margin-top: -40px;
+    margin-left: -77px;
+    
+    font-size: 40px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+  } */
+  
+

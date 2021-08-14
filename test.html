@@ -1,0 +1,228 @@
+<!-- <html>
+  <head>
+    <style>
+      body {
+        font-family: "Nunito", sans-serif;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+
+      .player-wrapper {
+        align-items: center;
+        background-color: #fff;
+        background-image: linear-gradient(90deg, #fff 0, #e0e0e0);
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+      }
+
+      .player {
+        background-color: #fff;
+        border-radius: 5px;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+        color: #404040;
+        display: inline-block;
+        line-height: 1.5625;
+        position: relative;
+      }
+
+      .player-controls {
+        display: flex;
+      }
+      .player-controls > div {
+        border-right: 1px solid #e0e0e0;
+      }
+      .player-controls > div:last-child {
+        border-right: none;
+      }
+      .player-controls > div a {
+        color: #404040;
+        display: block;
+        line-height: 0;
+        padding: 1em;
+        text-decoration: none;
+      }
+      .player-controls > div a svg {
+        display: inline-block;
+        width: 1.125rem;
+      }
+
+      .player-timeline {
+        background-color: #e0e0e0;
+        height: 50%;
+        min-width: 200px;
+        position: relative;
+      }
+      .player-timeline .player-progress,
+      .player-timeline .player-seeker {
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+      }
+      .player-timeline .player-progress {
+        background-color: #404040;
+        z-index: 1;
+      }
+      .player-timeline .player-seeker {
+        cursor: pointer;
+        width: 100%;
+        z-index: 2;
+      }
+
+      .player-time {
+        display: flex;
+        justify-content: space-between;
+      }
+      .player-time .player-time-current {
+        font-weight: 700;
+        padding-left: 5px;
+      }
+      .player-time .player-time-total {
+        opacity: 0.5;
+        padding-right: 5px;
+      }
+
+      .player-volume {
+        display: inline-block;
+        height: 1.1rem;
+        margin: 0 0 0 2px;
+        width: 6rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="audio" class="player-wrapper">
+      <audio-player
+        file="./001.mp3"
+      ></audio-player>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"></script>
+    <script src="./sss.js"></script>
+  </body>
+</html> -->
+
+<!-- <iframe class="popup-youtube"
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/btUPp-VJGos"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Test</title>
+    <style>
+
+.popup {
+  position: absolute;
+  min-height: auto;
+  width: auto;
+  z-index: 1002;
+}
+
+
+
+
+
+.youtube-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 80%;
+  height: 80%
+}
+
+.bg {
+  background-color: black;
+  opacity: 0.65;
+  position: absolute;
+  z-index: 1000;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+#showPopup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 10px 30px;
+
+  margin-top: -40px;
+  margin-left: -77px;
+  
+  font-size: 40px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #333;
+}
+
+
+
+
+
+    </style>
+    <script type="text/javascript" src="./js/jquery-library.js"></script>
+  </head>
+  <body>
+    <!-- <iframe class="popup-youtube"
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/btUPp-VJGos"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      ></iframe> -->
+
+    <a href="#" id="showPopup">Click</a>
+    <div class="bg" style="display: none"></div>
+
+    <div class="popup">
+      <iframe
+        id="player"
+        class="youtube-iframe"
+        src="https://www.youtube.com/embed/btUPp-VJGos"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+
+    <script>
+
+$(function() {
+  $("#showPopup").click(function(e) {
+    e.stopPropagation();
+    $(".bg").toggle();
+    $(".popup").toggle();
+  });
+  $("body").click(function() {
+    $(".bg").toggle();
+    $(".popup").hide();
+    var video = $("#player").attr("src");
+    $("#player").attr("src", "");
+    $("#player").attr("src", video);
+  });
+});
+    </script>
+  </body>
+</html>
